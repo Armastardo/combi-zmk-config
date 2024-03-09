@@ -60,13 +60,6 @@
 			, <&gpio0 12 GPIO_ACTIVE_HIGH>
 			;
 	};
-
-	vbatt: vbatt {
-        compatible = "zmk,battery-voltage-divider";
-        io-channels = <&adc 6>;
-        output-ohms = <2000000>;
-        full-ohms = <(2000000 + 820000)>;
-    };
 };
 
 &adc {
