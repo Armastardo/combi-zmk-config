@@ -19,7 +19,6 @@
 		zephyr,console = &cdc_acm_uart;
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
-		zmk,battery = &vbatt;
 		
 	};
 
